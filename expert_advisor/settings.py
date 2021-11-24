@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'j76wk&k=*1oqf!hm8jux@p+2=lc)4pkp_z+_n)vge+nlteei^x'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['satyam-expert-advisor.herokuapp.com/', '127.0.0.1:8000/']
 
 
 # Application definition
