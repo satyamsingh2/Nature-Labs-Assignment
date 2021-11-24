@@ -1,1 +1,1 @@
-web: gunicorn -b 0.0.0.0:8000 expert_advisor:application --log-file -
+web: gunicorn -b 0.0.0.0:8000 expert_advisor.wsgi:application --log-file -
