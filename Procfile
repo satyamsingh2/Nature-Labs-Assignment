@@ -1,1 +1,1 @@
-web: gunicorn epert-advisor.wsgi --log-file-
+web: gunicorn expert_advisor.wsgi --log-file-
