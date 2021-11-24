@@ -1,1 +1,1 @@
-web: gunicorn expert_advisor.wsgi --log-file-
+web: waitress-serve --port=$PORT expert_advisor.wsgi:application
